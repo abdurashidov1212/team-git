@@ -1,0 +1,34 @@
+.home{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 25px;
+}
+.home1{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 140px;
+}
+.home1 h3{
+    font-size: 20px;
+    color: #646464;
+}
+.home1 h1{
+    font-size: 52px;
+}
+.home1 p{
+    color: #646464;
+}
+.home1 button{
+    margin-top: 15px;
+    width: 97px;
+    height: 32px;
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color:#37806B;
+    color: white;
+    padding-bottom: 12px;
+}
