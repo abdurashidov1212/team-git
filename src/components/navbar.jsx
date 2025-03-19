@@ -9,11 +9,16 @@ const Navbar = ()=>{
         <div className="navbar">
 
         <Link to={"/home"}><img src={logo} alt="logo"/></Link>
+        <div className="nav">
+
         <Link to={"/home"}> <a>Home</a></Link>
         <Link to={"/project"}><a>Project</a></Link>
         <Link to={"/service"}><a>Service</a></Link>
         <Link to={"/about"}><a>About</a></Link>
         <Link to={"/blog"}><a>Blog</a></Link>
+        <button>READ MORE</button>
+        </div>
+
 
 
 
