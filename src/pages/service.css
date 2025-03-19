@@ -1,0 +1,30 @@
+.ser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.ser1{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    text-align: start;
+}
+.ser1 h3{
+    font-size: 31px;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.ser1 button{
+    margin-top: 15px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color:#37806B;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
