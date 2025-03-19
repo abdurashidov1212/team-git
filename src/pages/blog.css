@@ -1,0 +1,104 @@
+.blog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.blog h3{
+    color: #646464;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.blog h1{
+    font-size: 43px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 120px;
+}
+.pol1{
+    width: 532px;
+    height: 150px;
+    padding: 15px;
+    background-color: #d2caca8e;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pol3 img{
+    position: absolute;
+    left: 140px;
+    bottom: 295px;
+}
+.pol1 h3{
+    font-size: 25px;
+}
+.pol1 p{
+    color: #646464;
+    padding-top: 10px;
+}
+
+
+.pol4 img{
+    position: absolute;
+    right: 620px;
+    bottom: 295px;
+}
+.do{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+.do h1{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.do p{
+    color: #646464;
+}
+
+.find{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.find {
+    color: #646464;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.in input {
+    width: 500px;
+    height: 40px;
+    border: none;
+    text-indent: 35px;
+    background-color: #EEEEEE;
+    border-top-left-radius: 20px;
+}
+.in button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #37806B;
+    color: white;
+    border-bottom-right-radius: 20px;
+}
