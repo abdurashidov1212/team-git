@@ -1,0 +1,36 @@
+.pro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.pro2{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+.pro2 h3{
+    font-size: 20px;
+    color: #646464;
+}
+.pro2 h1{
+    font-size: 41px;
+}
+
+.pro2 p{
+    color: #646464;
+    font-size: 16px;
+}
+
+.pro2 button{
+    margin-top: 15px;
+    width: 151px;
+    height: 46px;
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color:#37806B;
+    color: white;
+    font-weight: bold;
+}
